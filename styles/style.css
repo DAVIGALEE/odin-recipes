@@ -1,12 +1,15 @@
 
-html, body {
+ body {
     max-width: 100%;
-    overflow-x: hidden;
+     overflow-x: hidden;
+    overflow-y:unset; 
+    
 }
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 img{
     width: 600px;
@@ -47,7 +50,7 @@ img{
   position: relative;
   left:12.5in;
   top:-3in;
-  padding:px;
+  border-radius: 20px;
 }
 #texts{
     position: relative;
@@ -66,4 +69,84 @@ img{
 }
 #btn:hover{
 cursor: pointer;
+}
+#midText{
+    position: relative;
+    left:40%;
+    margin-top:40px;
+    color:#1f2937
+}
+.middleBlocks{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.foodtxt{
+    display:flex;
+    justify-content: space-around;
+    white-space:pre-line;
+    margin-top:30px;
+}
+.img{
+    border-radius: 10px;
+}
+.quoteBlock{
+    margin-top:3in;
+    position:relative;
+    top:-1in;
+    background-color: #dcdfe4;
+    width:100vi;
+    height:4in;
+    white-space: pre-line;
+    font-size: 40px;
+    text-align: center;
+    color:#1f2937;
+}
+.botBlock{
+    position: relative;
+    left:25%;
+    background-color:#3882f6 ;
+    width:10in;
+    height:1.3in;
+    border-radius: 10px;
+   display: flex;
+   flex-direction: row;
+   color:white;
+}
+#sb{
+    position: relative;
+    top:40px;
+    left:30px;
+    display: flex;
+    flex-direction: column;
+}
+#botBtn{
+   margin:50px;
+   position: relative;
+   left:1in;
+   padding: 5px 30px 20px 30px;
+   border-radius: 7px;
+   border:white solid 2px;
+   background: none;
+   color:white;
+   transition:1s ease;
+}
+#botBtn:hover{
+    cursor: pointer;
+    background-color: azure;
+    color:black;
+}
+footer{
+    margin-top: 2in;
+    background-color: #1f2937;
+    height:1in;
+    width:100vi;
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+}
+footer strong{
+    margin-left:45%;
 }
